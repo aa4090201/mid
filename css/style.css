@@ -447,7 +447,7 @@ p{
     position: relative;
     animation-name: MoveToleft;    /*動畫名稱，需與 keyframe 名稱對應*/
     animation-duration: 2s;    /*動畫持續時間，單位為秒*/
-    animation-delay: 0s;    /*動畫延遲開始時間*/
+    animation-delay: 0.2s;    /*動畫延遲開始時間*/
     animation-iteration-count: 1;    /*動畫次數，infinite 為無限次*/  
     
 }
@@ -459,7 +459,7 @@ p{
     position: relative;
     animation-name: MoveToRight;    /*動畫名稱，需與 keyframe 名稱對應*/
     animation-duration: 2s;    /*動畫持續時間，單位為秒*/
-    animation-delay: 0s;    /*動畫延遲開始時間*/
+    animation-delay: 0.4s;    /*動畫延遲開始時間*/
     animation-iteration-count: 1;    /*動畫次數，infinite 為無限次*/  
     
 }
@@ -473,11 +473,11 @@ p{
     position: relative;
     animation-name: MoveToleft;    /*動畫名稱，需與 keyframe 名稱對應*/
     animation-duration: 2s;    /*動畫持續時間，單位為秒*/
-    animation-delay: 0s;    /*動畫延遲開始時間*/
+    animation-delay: 0.6s;    /*動畫延遲開始時間*/
     animation-iteration-count: 1;    /*動畫次數，infinite 為無限次*/  
     
 }@keyframes MoveToleft {
-        from { left: 10%;
+        from { left: 5%;
             opacity: 0; }
         to { left: 0;
             opacity: 100%; }
@@ -496,7 +496,7 @@ p{
     animation-iteration-count: 1;    /*動畫次數，infinite 為無限次*/  
     
 }@keyframes MoveToRight {
-        from {right: 10%;
+        from {right: 5%;
             opacity: 0; }
         to { right: 0;
             opacity: 100%; }
