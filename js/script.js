@@ -15,19 +15,6 @@ var adtemp=1;
 var jgtemp=1; 
 var suptemp=1; 
 var tempdata=1;
-function temp(){
-  
-  if(toptemp==1||midtemp==1||adtemp==1||suptemp==1||jgtemp==1)
-  { 
-  datadiv[0].style="display:none";
-  datatemp=1; 
-  }
-  else
-    {
-      datadiv[0].style="display:''";
-      datatemp=0;
-    }
-}
 topbut[0].onclick=function()
 {
 
@@ -40,17 +27,19 @@ topbut[0].onclick=function()
     {
     topdiv[0].style="display:''";
     toptemp=0;
+    window.scrollTo(0,800)
     }
-    if(toptemp==1&&midtemp==1&&adtemp==1&&suptemp==1&&jgtemp==1)
-    { 
-    datadiv[0].style="display:none";
-    datatemp=1; 
-    }
-    if(toptemp==0||midtemp==0||adtemp==0||suptemp==0||jgtemp==0)
-    {
-      datadiv[0].style="display:''";
-      datatemp=0;
-    }
+  
+  if(toptemp==1&&midtemp==1&&adtemp==1&&suptemp==1&&jgtemp==1)
+  { 
+      datadiv[0].style="display:none";
+      datatemp=1; 
+  }
+  if(toptemp==0||midtemp==0||adtemp==0||suptemp==0||jgtemp==0)
+  {
+        datadiv[0].style="display:''";
+        datatemp=0;
+  }
 }
 midbut[0].onclick=function(){
 
@@ -63,6 +52,8 @@ midbut[0].onclick=function(){
         {
         middiv[0].style="display:''";
         midtemp=0;
+        window.scrollTo(0,800)
+      
         }
         if(toptemp==1&&midtemp==1&&adtemp==1&&suptemp==1&&jgtemp==1)
         { 
@@ -87,6 +78,7 @@ jgbut[0].onclick=function()
     {
     jgdiv[0].style="display:''";
     jgtemp=0;
+    window.scrollTo(0,800)
     }
     if(toptemp==1&&midtemp==1&&adtemp==1&&suptemp==1&&jgtemp==1)
     { 
@@ -111,6 +103,7 @@ adbut[0].onclick=function()
     {
     addiv[0].style="display:''";
     adtemp=0;
+    window.scrollTo(0,800)
     }
     if(toptemp==1&&midtemp==1&&adtemp==1&&suptemp==1&&jgtemp==1)
     { 
@@ -135,6 +128,7 @@ supbut[0].onclick=function()
     {
     supdiv[0].style="display:''";
     suptemp=0;
+    window.scrollTo(0,800)
     }
     if(toptemp==1&&midtemp==1&&adtemp==1&&suptemp==1&&jgtemp==1)
     { 
