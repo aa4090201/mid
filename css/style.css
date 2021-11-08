@@ -58,7 +58,7 @@ a:hover{text-decoration:none}
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     height: 23px;
     font-size: 24px;
@@ -69,7 +69,7 @@ a:hover{text-decoration:none}
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     height: 23px;
     font-size: 24px;
@@ -81,8 +81,8 @@ a:hover{text-decoration:none}
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: 'Lato', sans-serif;
-    font-weight: 1000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     height: 23px;
     font-size: 24px;
     margin: 0 20px auto auto;
@@ -123,7 +123,7 @@ a:hover{text-decoration:none}
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     height: 30px;
     width: 90px;
@@ -156,7 +156,7 @@ a:hover{text-decoration:none}
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 18px;
     margin: 14px auto;
@@ -167,7 +167,7 @@ a:hover{text-decoration:none}
 .index-news-img2{
     margin: 30px auto 0 18px;
     width: 382px;
-    height: 224px;
+    height: 205px;
     border:3PX #ffffff   solid;
 }
 .footer{
@@ -191,7 +191,7 @@ a:hover{text-decoration:none}
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 165px;
     height: 46px;
 }
@@ -220,10 +220,10 @@ a:hover{text-decoration:none}
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     margin-left: 30px;
-    line-height: 0.40;
+    line-height: 0.80;
 }
 .team_h1{
     font-size: 64px;
@@ -232,7 +232,7 @@ a:hover{text-decoration:none}
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 30px auto 15px 55px;
     text-shadow: 0.01em 0.01em 0.05em rgb(255, 255, 255);
 }
@@ -275,22 +275,8 @@ a:hover{text-decoration:none}
     height: 45px;
     background-color: #0000000e;
 }
-
-.btn-ShowMaker{
+button{
     padding: 0;
-}
-.btn-Canyon{
-    padding: 0;
-}
-.btn-Ghost{
-    padding: 0;
-}
-.btn-BeryL{
-    padding: 0;
-}
-.btn-KHAN{
-    padding: 0;
-   
 }
 .table{
     display:flex;
@@ -304,38 +290,38 @@ a:hover{text-decoration:none}
     margin-bottom: 50px;
 }
 th {
-    border: solid 1px #5ceffe;
+    border: solid 1px #0FD2CC;
     padding: 16px 8px;
     
   }
 td{
     text-align: left;
     width: 65PX;
-    border: solid 1px #5ceffe;
+    border: solid 1px #0FD2CC;
     text-align: center;
     padding: 6px;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 .dataname{
     text-align: left;
     width: 110PX;
-    border: solid 1px #5ceffe;
+    border: solid 1px #0FD2CC;
     text-align: center;
     padding: 6px;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
 .lane-name{
     height: 45px;
-    color: #5ceffe;
+    color: #0FD2CC;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     margin: 10px auto auto 25px;
     font-weight: 1000;
@@ -347,7 +333,7 @@ td{
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     margin: 20px auto 0 20px;
     font-weight: 800;
@@ -355,11 +341,11 @@ td{
 }
 .coach-name{
     height: 45px;
-    color: #5ceffe;
+    color: #0FD2CC;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     margin: 10px auto 0 40px;
     font-weight: 1000;
@@ -371,7 +357,7 @@ p{
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     margin: 0px auto 0 20px;
     line-height: 1.2;
@@ -457,11 +443,25 @@ p{
     height: 406px;
     margin-top: 30px;
     background-color: #181818;
+    display: block;
+    position: relative;
+    animation-name: MoveToleft;    /*動畫名稱，需與 keyframe 名稱對應*/
+    animation-duration: 2s;    /*動畫持續時間，單位為秒*/
+    animation-delay: 0s;    /*動畫延遲開始時間*/
+    animation-iteration-count: 1;    /*動畫次數，infinite 為無限次*/  
+    
 }
 .img2020{
     width:680px;
     height: 384px;
     background-color: #181818;
+    display: block;
+    position: relative;
+    animation-name: MoveToRight;    /*動畫名稱，需與 keyframe 名稱對應*/
+    animation-duration: 2s;    /*動畫持續時間，單位為秒*/
+    animation-delay: 0s;    /*動畫延遲開始時間*/
+    animation-iteration-count: 1;    /*動畫次數，infinite 為無限次*/  
+    
 }
 .img2021{
     width:680px;
@@ -469,16 +469,40 @@ p{
     margin-top:auto;
     margin-bottom: 0px;
     background-color: #181818;
-}
+    display: block;
+    position: relative;
+    animation-name: MoveToleft;    /*動畫名稱，需與 keyframe 名稱對應*/
+    animation-duration: 2s;    /*動畫持續時間，單位為秒*/
+    animation-delay: 0s;    /*動畫延遲開始時間*/
+    animation-iteration-count: 1;    /*動畫次數，infinite 為無限次*/  
+    
+}@keyframes MoveToleft {
+        from { left: 10%;
+            opacity: 0; }
+        to { left: 0;
+            opacity: 100%; }
+    }
 
 .img2018{
     width:680px;
     height: 394px;
     margin-top:0px;
     background-color: #000000;
-}
+    display: block;
+    position: relative;
+    animation-name: MoveToRight;    /*動畫名稱，需與 keyframe 名稱對應*/
+    animation-duration: 2s;    /*動畫持續時間，單位為秒*/
+    animation-delay: 0s;    /*動畫延遲開始時間*/
+    animation-iteration-count: 1;    /*動畫次數，infinite 為無限次*/  
+    
+}@keyframes MoveToRight {
+        from {right: 10%;
+            opacity: 0; }
+        to { right: 0;
+            opacity: 100%; }
+    }
 .about2018-h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     color: #ffffff;
     font-weight: 800;
@@ -487,7 +511,7 @@ p{
     text-shadow: -0.05em 0.05em 0.2em rgb(87, 123, 128);
 }
 .about2019-h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     color: #fdffff;
     font-weight: 800;
@@ -496,7 +520,7 @@ p{
     text-shadow: 0.05em 0.05em 0.2em rgb(87, 123, 128);
 }
 .about2020-h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 48px;
     font-weight: 800;
@@ -505,7 +529,7 @@ p{
     margin-top: 50px;
 }
 .about2021-h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 48px;
     font-weight: 800;
@@ -515,7 +539,7 @@ p{
     text-shadow: 0.05em 0.05em 0.2em rgb(87, 123, 128);
 }
 .about2019-p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     font-size: 24px;
     color: #ffffff;
@@ -523,7 +547,7 @@ p{
     text-shadow: 0.05em 0.05em 0.2em rgb(176, 246, 255);
 }
 .about2020-p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     font-size: 24px;
     color: #ffffff;
@@ -531,7 +555,7 @@ p{
     text-shadow: 0.05em 0.05em 0.2em rgb(176, 246, 255);
 }
 .about2021-p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     font-size: 24px;
     color: #ffffff;
@@ -539,7 +563,7 @@ p{
     text-shadow: 0.05em 0.05em 0.2em rgb(176, 246, 255);
 }
 .about2018-p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     font-size: 24px;
     color: #ffffff;
