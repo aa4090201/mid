@@ -149,6 +149,12 @@ a:hover{text-decoration:none}
     height: 215px;
     border:3PX #ffffff   solid;
 }
+.index-news-img1:hover{
+    margin: 30px auto 0 18px;
+    width: 382px;
+    height: 215px;
+    border:3PX #0FD2CC   solid;
+}
 .index-news-h3{
     width: 353px;
     height: 40px;
@@ -169,6 +175,12 @@ a:hover{text-decoration:none}
     width: 382px;
     height: 205px;
     border:3PX #ffffff   solid;
+}
+.index-news-img2:hover{
+    margin: 30px auto 0 18px;
+    width: 382px;
+    height: 205px;
+    border:3PX  #0FD2CC   solid;
 }
 .footer{
     display: flex;
